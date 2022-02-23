@@ -39,8 +39,35 @@ nav {
     margin-right: 30px;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     display: inline-block;
-    margin-left: 60%;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: fff;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    }
+
+.column {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
 }
