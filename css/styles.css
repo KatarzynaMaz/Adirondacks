@@ -71,3 +71,46 @@ p {
     font-size: 12px;
     line-height: 15px;
 }
+
+button{
+    width: 180px;
+    font-size: 12px;
+    padding: 12px 0;
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+}
+.card {
+    width:200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transition: translateY(-10px);
+}
+.card1 {
+    background-image: 
+}
+
+.card2 {
+    background-image: 
+}
+
+.card3 {
+    background-image: 
+}
+
+.card4 {
+    background-image: url(../images/HaySmall.jpg)
+}
