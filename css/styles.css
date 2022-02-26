@@ -10,7 +10,7 @@
     background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(../images/P1000836.JPG);
     background-position: center;
     background-size: cover;
-    
+    padding-left: 10px;
     box-sizing: border-box;
 }
 
@@ -56,7 +56,7 @@ nav ul li a {
     align-items: center;
     }
 
-.column {
+.col {
     flex-basis: 50%;
 }
 
@@ -70,7 +70,7 @@ h5 {
 
 p {
     color: #fff;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 15px;
 }
 
@@ -85,9 +85,15 @@ button{
     outline: none;
     margin-top: 10px;
 }
+
+button a {
+    text-decoration: none;
+    font-size: 14px;
+
+}
 .card {
-    /*display: grid;*/
-    width: 250px;px;
+    display: grid;
+    width: 200px;
     height: 230px;
     display: inline-block;
     border-radius: 10px;
@@ -100,6 +106,10 @@ button{
     transition: transform 0.5s;
 }
 
+.card p {
+    color: black;
+}
+
 .card:hover{
     transition: translateY(-10px);
 }
@@ -108,11 +118,11 @@ button{
 }
 
 .card2 {
-    background-image: 
+    background-image: url(../images/AlgonquinSmall.jpg)
 }
 
 .card3 {
-    background-image: 
+    background-image: url(../images/MarcySmall.jpg)
 }
 
 .card4 {
