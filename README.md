@@ -1,0 +1,1 @@
+A simple website with a navigation bar built with HTML & CSS only.
