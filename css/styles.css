@@ -10,7 +10,7 @@
     background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(../images/P1000836.JPG);
     background-position: center;
     background-size: cover;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
     box-sizing: border-box;
 }
 
@@ -72,6 +72,8 @@ h5 {
 h2 {
     font-size: 18px;
     padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 p {
     color: #fff;
@@ -134,11 +136,27 @@ button a {
     background-image: url(../images/HaySmall.jpg)
 }
 
-.about {
+h3 {
     color: black;
-    font-size: 12px;
-    padding-top: 20px;
-    
-    
-    
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about {
+    background-image: url(../images/AdiPano.jpg);
+    width: 100%;
+}
+
+.about_info {
+    color:black;
+    padding: 30px 20px 30px;   
+   }
+
+.fav_hikes {
+    font-weight: bold;
+    text-align:center;
+    list-style-type: circle;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
