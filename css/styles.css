@@ -25,6 +25,7 @@ html {
     background-size: cover;
     /*padding-left: 10px;*/
     box-sizing: border-box;
+    padding-bottom: 0px;
 }
 
 .navbar {
@@ -174,7 +175,26 @@ h3 {
     padding-bottom: 15px;
 }
 
-.peaks {
+.peaks{
     background-image: url(../images/AdisMed.jpg);
-    width: 100%;
+
+}
+.high_peaks {
+    display: flex;  
+    padding: 0px 50px 50px 350px; 
+    
+}
+
+.peaks h2 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.scroll-to-top {
+    color: black;
+    font-weight: bold;
+    font-size:x-large;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-bottom: 0px;
 }
